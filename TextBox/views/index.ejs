@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit 2 Assessment</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class="form">
+    <% if(todoArray.length ===0) { %>
+      <h3>Input your size annd colour</h3>
+    <%} else { %>
+      <ul>
+         <% for (let td of todoArray) { %>
+          <li><%= td %></li>
+         <% } %>
+      </ul>
+    <% } %>
+    <form action="/submission" method="POST">
+        <input required type="text" name="TODO">
+        <input type="submit" value="submit">
+    </form>
+  </div>
+
+  </body>
+</html>

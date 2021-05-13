@@ -1,0 +1,15 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 40%;
+  text-align: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form {
+  background-color: aquamarine;
+  height: auto;
+}
