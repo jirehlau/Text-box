@@ -5,7 +5,7 @@
  */
 
 var app = require('../server');
-var debug = require('debug')('TextBox:server');
+var debug = require('debug')('Text-Box:server');
 var http = require('http');
 
 /**
