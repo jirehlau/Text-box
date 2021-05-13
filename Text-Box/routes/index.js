@@ -6,7 +6,7 @@ let todosModel = require('../data/todoData.js')
 
 router.get('/',function(req,res,next){
     res.render('index.ejs', {
-        title: 'Unit 2 Assessment',
+        title: 'Text-Box',
         todoArray: todosModel.todos,
     })
 })
